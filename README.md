@@ -1,6 +1,6 @@
 # DMMA-FL
 
-This repository contains the source code of Decomposition and Meta-DRL Based Multi-Objective Optimization for Asynchronous Federated Learning in 6G-Satellite Systems, IEEE EEE Journal on Selected Areas in Communications, 2024.
+This repository contains the source code of Decomposition and Meta-DRL Based Multi-Objective Optimization for Asynchronous Federated Learning in 6G-Satellite Systems, IEEE Journal on Selected Areas in Communications, 2024.
 
 ## Quick Start
 
@@ -87,15 +87,13 @@ python experiments/run_moo.py \
 If you use this code, please cite:
 
 ```bibtex
-@ARTICLE{10436092,
+@ARTICLE{Zhou2025decomposition,
   author={Zhou, Yu and Lei, Lei and Zhao, Xiaohui and You, Lei and Sun, Yaohua and Chatzinotas, Symeon},
   journal={IEEE Journal on Selected Areas in Communications},
   title={Decomposition and Meta-DRL Based Multi-Objective Optimization for Asynchronous Federated Learning in 6G-Satellite Systems},
   year={2024},
   volume={42},
   number={5},
-  pages={1115-1129},
-  keywords={Computational modeling;Optimization;Training;Data models;Satellites;Low earth orbit satellites;6G mobile communication;LEO satellite;asynchronous federated learning;multi-objective optimization;meta-reinforcement learning},
-  doi={10.1109/JSAC.2024.3365902}
+  pages={1115-1129}
 }
 ```
