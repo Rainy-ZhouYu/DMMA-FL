@@ -5,26 +5,6 @@ This repository contains the source code of:
 > Decomposition and Meta-DRL Based Multi-Objective Optimization for
 > Asynchronous Federated Learning in 6G-Satellite Systems, IEEE JSAC 2024.
 
-The implementation focuses on the paper's core algorithmic pipeline:
-
-1. Decompose the two-objective LEO-FL MOP into scalar subproblems.
-2. Train meta actor/critic networks across sampled weight vectors.
-3. Fine-tune each decomposed subproblem.
-4. Execute asynchronous uploading and weighted aggregation (AUWA).
-5. Report the Pareto points `(C, L)`, hypervolume, and test accuracy.
-
-This version also includes a Non-IID extension used in our experiments:
-
-- `dmma-auwa-fair`: DMMA-AUWA with staleness/fairness-aware client replacement.
-- `dmma-auwa-diverse`: DMMA-AUWA with label-diversity-aware replacement.
-- `dmma-auwa-hybrid`: a fair-diverse variant that balances DMMA's selected
-  clients, low-participation clients, and label coverage.
-
-The default experiment uses synthetic classification data so the code can be
-smoke-tested on a fresh server without downloading MNIST/CIFAR-10. Pass
-`--dataset mnist` or `--dataset cifar10` to use torchvision datasets when
-available.
-
 ## Quick Start
 
 ```bash
