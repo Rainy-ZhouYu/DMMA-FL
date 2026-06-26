@@ -1,9 +1,6 @@
 # DMMA-FL
 
-This repository contains the source code of:
-
-> Decomposition and Meta-DRL Based Multi-Objective Optimization for
-> Asynchronous Federated Learning in 6G-Satellite Systems, IEEE JSAC 2024.
+This repository contains the source code of Decomposition and Meta-DRL Based Multi-Objective Optimization for Asynchronous Federated Learning in 6G-Satellite Systems, IEEE EEE Journal on Selected Areas in Communications, 2024.
 
 ## Quick Start
 
